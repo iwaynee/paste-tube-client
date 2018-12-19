@@ -5,11 +5,15 @@ import android.content.ClipboardManager;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.Color;
+import android.os.Handler;
+import android.os.HandlerThread;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 
+import android.view.View;
 import android.widget.ImageView;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import com.google.zxing.BarcodeFormat;
@@ -34,34 +38,70 @@ public class LoggedInActivity extends AppCompatActivity {
     private ClipboardManager clipboard;
 
     public String userid;
+    private PasteHandler pasteHandler;
 
     public Bitmap bmp;
 
-    private TextView text_userid;
-    private ImageView image_qr_code;
+    public TextView text_userid;
+    public ImageView image_qr_code;
+    public ProgressBar progressBar;
+
+    private Handler handler;
+    private Runnable runnable;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_loged_in);
-
-        text_userid = findViewById(R.id.text_userid);
-        image_qr_code = findViewById(R.id.image_qr_code);
-
 
         clipboard = (ClipboardManager)getSystemService(CLIPBOARD_SERVICE);
 
-        // Get USERID
+        // Create Handler
+        handler = new Handler();
+
+    }
+
+    @Override
+    protected void onResume(){
+        super.onResume();
+
+        setContentView(R.layout.activity_loged_in);
+
+        // Get all handles
+        text_userid = findViewById(R.id.text_userid);
+        image_qr_code = findViewById(R.id.image_qr_code);
+        progressBar = findViewById(R.id.progressBar);
+
+        // Get UserID
         Intent intent = getIntent();
         final String message_userid = intent.getStringExtra(MainActivity.MESSAGE_USERID);
 
-        thread = new Thread(new Runnable() {
-            @Override
-            public void run() {
-                build_screen(message_userid);
-            }
-        });
-        thread.start();
+        if (userid == null) {
+            thread = new Thread(new Runnable() {
+                @Override
+                public void run() {
+                    build_screen(message_userid);
+                }
+            });
+            thread.start();
+        } else {
+            handler.post(
+                    runnable = new Runnable(){
+                        @Override
+                        public void run() {
+                            new Thread(new Runnable() {
+                                @Override
+                                public void run() {
+                                    pasteHandler.check();
+                                }
+                            }).start();
+
+                            handler.postDelayed(runnable, 100);
+                        }
+                    }
+            );
+
+
+        }
     }
 
     private void build_screen(String message_userid){
@@ -128,21 +168,19 @@ public class LoggedInActivity extends AppCompatActivity {
             if(bitMatrix != null) {
                 int height = bitMatrix.getHeight();
                 int width = bitMatrix.getWidth();
-                Bitmap bmp_temp = Bitmap.createBitmap(width, height, Bitmap.Config.RGB_565);
+                final Bitmap bmp_temp = Bitmap.createBitmap(width, height, Bitmap.Config.RGB_565);
                 for (int x = 0; x < width; x++){
                     for (int y = 0; y < height; y++){
                         bmp_temp.setPixel(x, y, bitMatrix.get(x,y) ? Color.BLACK : Color.WHITE);
                     }
                 }
 
-                bmp = bmp_temp;
-
                 runOnUiThread(new Runnable() {
 
                     @Override
                     public void run() {
-
-                        image_qr_code.setImageBitmap(bmp);
+                        progressBar.setVisibility(View.GONE);
+                        image_qr_code.setImageBitmap(bmp_temp);
                         text_userid.setText(userid);
                     }
                 });
@@ -151,84 +189,44 @@ public class LoggedInActivity extends AppCompatActivity {
             e.printStackTrace();
         }
 
+        pasteHandler = new PasteHandler(userid, clipboard, client);
 
+        handler.post(
+                runnable = new Runnable(){
+                    @Override
+                    public void run() {
+                        new Thread(new Runnable() {
+                            @Override
+                            public void run() {
+                                pasteHandler.check();
+                            }
+                        }).start();
 
-        thread = new Thread(new Runnable() {
-            @Override
-            public void run() {
-                PasteHandler(userid);
-            }
-        });
-        thread.start();
-
+                        handler.postDelayed(runnable, 100);
+                    }
+                }
+        );
     }
 
     @Override
-    public void onDestroy(){
+    public void onDestroy() {
         super.onDestroy();
-        thread.stop();
-
+        if (runnable != null) {
+            handler.removeCallbacks(runnable); //stop handler when activity not visible
+        }
     }
-
+    /*
     public void PasteHandler(String userid){
 
-        ClipData clipData;
-        String online_data;
-        String online_data_old = null;
-        String offline_data_old = null;
-        ClipData offline_data_clip;
-        String offline_data;
+
 
 
         while (true) {
 
-            online_data = client.Paste(userid);
-            offline_data_clip = clipboard.getPrimaryClip();
-            offline_data = offline_data_clip.getItemAt(0).getText().toString();
 
-
-
-            if (!online_data.equals(online_data_old)){
-                online_data_old = online_data;
-                offline_data_old = online_data;
-
-                clipData = ClipData.newPlainText("synced text",
-                        online_data);
-
-                clipboard.setPrimaryClip(clipData);
-
-                Log.i(TAG, online_data);
-            } else if (!offline_data.equals(offline_data_old)){
-                online_data_old = offline_data;
-                offline_data_old = offline_data;
-
-                client.Copy(userid, offline_data);
-
-                Log.i(TAG, offline_data);
-
-            }
-
-
-
-            /*
-
-            // Examines the item on the clipboard. If getText() does not return null, the clip item contains the
-            // text. Assumes that this application can only handle one item at a time.
-            ClipData.Item item = clipboard.getPrimaryClip().getItemAt(0);
-
-            // Gets the clipboard as text.
-            String pasteData = item.getText().toString();
-
-            // If the string contains data, then the paste operation is done
-            if (pasteData != "") {
-                return;
-
-                // The clipboard does not contain text. If it contains a URI, attempts to get data from it
-            } else {
-                Log.v(TAG, item.getText().toString());
-                client.Copy(userid, item.getText().toString());
-            }
-            */
+            *
         }
     }
+    */
 }
+
