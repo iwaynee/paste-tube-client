@@ -9,8 +9,8 @@ public class PasteHandler {
 
     public ClipData clipData;
     public String online_data;
-    public String online_data_old = null;
-    public String offline_data_old = null;
+    public String online_data_old;
+    public String offline_data_old;
     public ClipData offline_data_clip;
     public String offline_data;
 
@@ -21,15 +21,23 @@ public class PasteHandler {
     public PasteHandler(String p_userid, ClipboardManager p_clipboard, PasteTube p_client){
         clipboardManager = p_clipboard;
         client = p_client;
+        userid = p_userid;
+
+        online_data_old = "null";
+        offline_data_old = "null";
+
     }
 
     public void check(){
         online_data = client.Paste(userid);
+
+        Log.v(TAG, "Online now: " +  online_data.toString());
+
         offline_data_clip = clipboardManager.getPrimaryClip();
         offline_data = offline_data_clip.getItemAt(0).getText().toString();
 
 
-        if (!online_data.equals(online_data_old)){
+        if (!online_data.equals(online_data_old) && !online_data.equals("null")){
             online_data_old = online_data;
             offline_data_old = online_data;
 
@@ -39,7 +47,7 @@ public class PasteHandler {
             clipboardManager.setPrimaryClip(clipData);
 
             Log.i(TAG, online_data);
-        } else if (!offline_data.equals(offline_data_old)){
+        } else if (!offline_data.equals(offline_data_old) && !offline_data.equals(null)){
             online_data_old = offline_data;
             offline_data_old = offline_data;
 

@@ -84,6 +84,17 @@ public class LoggedInActivity extends AppCompatActivity {
             });
             thread.start();
         } else {
+
+            // Check if userid is valid!
+            Boolean connected = client.Connect(userid);
+            if (!connected){
+                finish();
+            }
+
+
+
+
+
             handler.post(
                     runnable = new Runnable(){
                         @Override
@@ -95,7 +106,7 @@ public class LoggedInActivity extends AppCompatActivity {
                                 }
                             }).start();
 
-                            handler.postDelayed(runnable, 100);
+                            handler.postDelayed(runnable, 500);
                         }
                     }
             );
@@ -202,7 +213,7 @@ public class LoggedInActivity extends AppCompatActivity {
                             }
                         }).start();
 
-                        handler.postDelayed(runnable, 100);
+                        handler.postDelayed(runnable, 500);
                     }
                 }
         );

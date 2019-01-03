@@ -88,9 +88,16 @@ public class ScannerActivity extends AppCompatActivity implements ZXingScannerVi
 
     @Override
     public void handleResult(final Result result) {
-        final String myResult = result.getText();
+        final String qrcode_text = result.getText();
         Log.d("QRCodeScanner", result.getText());
         Log.d("QRCodeScanner", result.getBarcodeFormat().toString());
+
+        if (!result.getBarcodeFormat().toString().equals("QR_CODE")){
+            return;
+        }
+
+        // TODO Check ID
+
 
         /*
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
@@ -112,8 +119,7 @@ public class ScannerActivity extends AppCompatActivity implements ZXingScannerVi
         */
 
         Intent intent = new Intent(ScannerActivity.this, LoggedInActivity.class);
-        String message = myResult;
-        intent.putExtra(MESSAGE_USERID, message);
+        intent.putExtra(MESSAGE_USERID, qrcode_text);
         startActivity(intent);
     }
 }
