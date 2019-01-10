@@ -1,0 +1,562 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Dapplo.Windows.Kernel32</name>
+    </assembly>
+    <members>
+        <member name="T:Dapplo.Windows.Kernel32.Enums.DefaultDllDirectories">
+            <summary>
+                The directories to search. This parameter can be any combination of the following values.
+                See <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/hh310515(v=vs.85).aspx">SetDefaultDllDirectories function</a>
+            </summary>
+        </member>
+        <member name="F:Dapplo.Windows.Kernel32.Enums.DefaultDllDirectories.SearchApplicationDirectory">
+            <summary>
+            If this value is used, the application's installation directory is searched.
+            </summary>
+        </member>
+        <member name="F:Dapplo.Windows.Kernel32.Enums.DefaultDllDirectories.SearchUserDirectories">
+            <summary>
+            If this value is used, any path explicitly added using the AddDllDirectory or SetDllDirectory function is searched. If more than one directory has been added, the order in which those directories are searched is unspecified.
+            </summary>
+        </member>
+        <member name="F:Dapplo.Windows.Kernel32.Enums.DefaultDllDirectories.SearchSystem32Directory">
+            <summary>
+            If this value is used, %windows%\system32 is searched.
+            </summary>
+        </member>
+        <member name="F:Dapplo.Windows.Kernel32.Enums.DefaultDllDirectories.SearchDefaultDirectories">
+            <summary>
+            This value is a combination of LOAD_LIBRARY_SEARCH_APPLICATION_DIR, LOAD_LIBRARY_SEARCH_SYSTEM32, and LOAD_LIBRARY_SEARCH_USER_DIRS.
+            This value represents the recommended maximum number of directories an application should include in its DLL search path.
+            </summary>
+        </member>
+        <member name="T:Dapplo.Windows.Kernel32.Enums.GlobalMemorySettings">
+            <summary>
+            See <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa366574(v=vs.85).aspx">GlobalAlloc function</a>
+            </summary>
+        </member>
+        <member name="F:Dapplo.Windows.Kernel32.Enums.GlobalMemorySettings.Fixed">
+            <summary>
+            Allocates fixed memory. The return value is a pointer.
+            </summary>
+        </member>
+        <member name="F:Dapplo.Windows.Kernel32.Enums.GlobalMemorySettings.Movable">
+            <summary>
+            Allocates movable memory. Memory blocks are never moved in physical memory, but they can be moved within the default heap.
+            The return value is a handle to the memory object. To translate the handle into a pointer, use the GlobalLock function.
+            This value cannot be combined with Fixed.
+            </summary>
+        </member>
+        <member name="F:Dapplo.Windows.Kernel32.Enums.GlobalMemorySettings.ZeroInit">
+            <summary>
+            Initializes memory contents to zero.
+            </summary>
+        </member>
+        <member name="T:Dapplo.Windows.Kernel32.Enums.ProcessAccessRights">
+            <summary>
+                <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms684880(v=vs.85).aspx">Process Security and Access Rights</a>
+            </summary>
+        </member>
+        <member name="F:Dapplo.Windows.Kernel32.Enums.ProcessAccessRights.All">
+            <summary>
+                Combined value for access all
+            </summary>
+        </member>
+        <member name="F:Dapplo.Windows.Kernel32.Enums.ProcessAccessRights.Terminate">
+            <summary>
+                Enables usage of the process handle in the TerminateProcess function to terminate the process.
+            </summary>
+        </member>
+        <member name="F:Dapplo.Windows.Kernel32.Enums.ProcessAccessRights.CreateThread">
+            <summary>
+                Enables usage of the process handle in the CreateRemoteThread function to create a thread in the process.
+            </summary>
+        </member>
+        <member name="F:Dapplo.Windows.Kernel32.Enums.ProcessAccessRights.VirtualMemoryOperation">
+            <summary>
+                Enables usage of the process handle in the VirtualProtectEx and WriteProcessMemory functions to modify the virtual
+                memory of the process.
+            </summary>
+        </member>
+        <member name="F:Dapplo.Windows.Kernel32.Enums.ProcessAccessRights.VirtualMemoryRead">
+            <summary>
+                Enables usage of the process handle in the ReadProcessMemory function to' read from the virtual memory of the
+                process.
+            </summary>
+        </member>
+        <member name="F:Dapplo.Windows.Kernel32.Enums.ProcessAccessRights.VirtualMemoryWrite">
+            <summary>
+                Enables usage of the process handle in the WriteProcessMemory function to write to the virtual memory of the
+                process.
+            </summary>
+        </member>
+        <member name="F:Dapplo.Windows.Kernel32.Enums.ProcessAccessRights.DuplicateHandle">
+            <summary>
+                Enables usage of the process handle as either the source or target process in the DuplicateHandle function to
+                duplicate a handle.
+            </summary>
+        </member>
+        <member name="F:Dapplo.Windows.Kernel32.Enums.ProcessAccessRights.SetInformation">
+            <summary>
+                Enables usage of the process handle in the SetPriorityClass function to set the priority class of the process.
+            </summary>
+        </member>
+        <member name="F:Dapplo.Windows.Kernel32.Enums.ProcessAccessRights.QueryInformation">
+            <summary>
+                Enables usage of the process handle in the GetExitCodeProcess and GetPriorityClass functions to read information
+                from the process object.
+            </summary>
+        </member>
+        <member name="F:Dapplo.Windows.Kernel32.Enums.ProcessAccessRights.QueryLimitedInformation">
+            <summary>
+                Required to retrieve certain information about a process (see GetExitCodeProcess, GetPriorityClass, IsProcessInJob, QueryFullProcessImageName). A handle that has the PROCESS_QUERY_INFORMATION access right is automatically granted PROCESS_QUERY_LIMITED_INFORMATION.
+                Windows Server 2003 and Windows XP:  This access right is not supported.
+            </summary>
+        </member>
+        <member name="F:Dapplo.Windows.Kernel32.Enums.ProcessAccessRights.Synchronize">
+            <summary>
+                The right to use the object for synchronization.
+                This enables a thread to wait until the object is in the signaled state.
+            </summary>
+        </member>
+        <member name="T:Dapplo.Windows.Kernel32.Enums.WindowsProducts">
+            <summary>
+                Windows Product types, returned by GetProductInfo
+            </summary>
+        </member>
+        <member name="T:Dapplo.Windows.Kernel32.Enums.WindowsProductTypes">
+            <summary>
+                Any additional information about the system. This member can be one of the following values.
+                See
+                <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms724833(v=vs.85).aspx">OSVERSIONINFOEX structure</a>
+            </summary>
+        </member>
+        <member name="F:Dapplo.Windows.Kernel32.Enums.WindowsProductTypes.VER_NT_WORKSTATION">
+            <summary>
+                The operating system is Windows 8, Windows 7, Windows Vista, Windows XP Professional, Windows XP Home Edition, or
+                Windows 2000 Professional.
+            </summary>
+        </member>
+        <member name="F:Dapplo.Windows.Kernel32.Enums.WindowsProductTypes.VER_NT_DOMAIN_CONTROLLER">
+            <summary>
+                The system is a domain controller and the operating system is Windows Server 2012 , Windows Server 2008 R2, Windows
+                Server 2008, Windows Server 2003, or Windows 2000 Server
+            </summary>
+        </member>
+        <member name="F:Dapplo.Windows.Kernel32.Enums.WindowsProductTypes.VER_NT_SERVER">
+            <summary>
+                The operating system is Windows Server 2012, Windows Server 2008 R2, Windows Server 2008, Windows Server 2003, or
+                Windows 2000 Server.
+                Note that a server that is also a domain controller is reported as VER_NT_DOMAIN_CONTROLLER, not VER_NT_SERVER.
+            </summary>
+        </member>
+        <member name="T:Dapplo.Windows.Kernel32.Enums.WindowsSuites">
+            <summary>
+                A bit mask that identifies the product suites available on the system. This member can be a combination of the
+                following values.
+                See
+                <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms724833(v=vs.85).aspx">OSVERSIONINFOEX structure</a>
+            </summary>
+        </member>
+        <member name="T:Dapplo.Windows.Kernel32.Kernel32Api">
+            <summary>
+                Kernel 32 functionality
+            </summary>
+        </member>
+        <member name="F:Dapplo.Windows.Kernel32.Kernel32Api.ATTACHCONSOLE_ATTACHPARENTPROCESS">
+            <summary>
+                default value if not specifing a process ID
+            </summary>
+        </member>
+        <member name="M:Dapplo.Windows.Kernel32.Kernel32Api.PreventDllHijacking(System.String)">
+            <summary>
+            A helper method to prevent Dll Hijacking, this drastically reduces the DLL search paths!!!!!
+            </summary>
+            <param name="allowDllDirectory">An optional single directory where additional  DLL searches are made</param>
+        </member>
+        <member name="M:Dapplo.Windows.Kernel32.Kernel32Api.SetDefaultDllDirectories(Dapplo.Windows.Kernel32.Enums.DefaultDllDirectories)">
+            <summary>
+            Specifies a default set of directories to search when the calling process loads a DLL. This search path is used when LoadLibraryEx is called with no LOAD_LIBRARY_SEARCH flags.
+                See <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/hh310515(v=vs.85).aspx">SetDefaultDllDirectories function</a>
+            </summary>
+            <param name="directoryFlags">DefaultDllDirectories with the directories to search. This parameter can be any combination of the following values.</param>
+            <returns>
+            If the function succeeds, the return value is nonzero.
+            If the function fails, the return value is zero. To get extended error information, call GetLastError.
+            </returns>
+            <remarks>
+            The DLL search path is the set of directories that are searched for a DLL when a full path is not specified in a LoadLibrary or LoadLibraryEx function call, or when a full path to the DLL is specified but the system must search for dependent DLLs. For more information about the standard DLL search path, see Dynamic-Link Library Search Order.
+            The standard DLL search path contains directories that can be vulnerable to a DLL pre-loading attack. An application can use the SetDefaultDllDirectories function to specify a default DLL search path for the process that eliminates the most vulnerable directories and limits the other directories that are searched. The process DLL search path applies only to the calling process and persists for the life of the process.
+            If the DirectoryFlags parameter specifies more than one flag, the directories are searched in the following order:
+            The directory that contains the DLL (LOAD_LIBRARY_SEARCH_DLL_LOAD_DIR). This directory is searched only for dependencies of the DLL being loaded.
+            The application directory (LOAD_LIBRARY_SEARCH_APPLICATION_DIR).
+            Paths explicitly added to the application search path with the AddDllDirectory function (LOAD_LIBRARY_SEARCH_USER_DIRS) or the SetDllDirectory function. If more than one path has been added, the order in which the paths are searched is unspecified.
+            The System directory (LOAD_LIBRARY_SEARCH_SYSTEM32).
+            If SetDefaultDllDirectories does not specify LOAD_LIBRARY_SEARCH_USER_DIRS, directories specified with the AddDllDirectory function are used only for LoadLibraryEx function calls that specify LOAD_LIBRARY_SEARCH_USER_DIRS.
+            It is not possible to revert to the standard DLL search path or remove any directory specified with SetDefaultDllDirectories from the search path. However, the process DLL search path can be overridden by calling LoadLibraryEx with one or more LOAD_LIBRARY_SEARCH flags, and directories added with AddDllDirectory can be removed by calling RemoveDllDirectory.
+            Windows 7, Windows Server 2008 R2, Windows Vista and Windows Server 2008:  To call this function in an application, use the GetProcAddress function to retrieve its address from Kernel32.dll. KB2533623 must be installed on the target platform.
+            </remarks>
+        </member>
+        <member name="M:Dapplo.Windows.Kernel32.Kernel32Api.SetDllDirectory(System.String)">
+            <summary>
+            Adds a directory to the search path used to locate DLLs for the application.
+            </summary>
+            <param name="lpPathName">The directory to be added to the search path. If this parameter is an empty string (""), the call removes the current directory from the default DLL search order. If this parameter is NULL, the function restores the default search order.</param>
+            <returns>
+            If the function succeeds, the return value is nonzero.
+            If the function fails, the return value is zero. To get extended error information, call GetLastError.
+            </returns>
+        </member>
+        <member name="M:Dapplo.Windows.Kernel32.Kernel32Api.AllocConsole">
+            <summary>
+            Allocates a new console for the calling process.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Dapplo.Windows.Kernel32.Kernel32Api.GetCurrentProcessId">
+            <summary>
+            Retrieves the process identifier of the calling process.
+            </summary>
+            <returns>int</returns>
+        </member>
+        <member name="M:Dapplo.Windows.Kernel32.Kernel32Api.GetCurrentThreadId">
+            <summary>
+            Retrieves the thread identifier of the calling thread.
+            </summary>
+            <returns>int</returns>
+        </member>
+        <member name="M:Dapplo.Windows.Kernel32.Kernel32Api.AttachConsole(System.UInt32)">
+            <summary>
+            Attaches the calling process to the console of the specified process.
+            See <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms681944(v=vs.85).aspx">AllocConsole function</a>
+            </summary>
+            <param name="dwProcessId">The identifier of the process whose console is to be used. Or -1 to use the console of the parent of the current process.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Dapplo.Windows.Kernel32.Kernel32Api.CloseHandle(System.IntPtr)">
+            <summary>
+            Closes an open object handle.
+            See <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms724211(v=vs.85).aspx">CloseHandle function</a>
+            The CloseHandle function closes handles to the following win32 objects:
+             * Access token
+             * Communications device
+             * Console input
+             * Console screen buffer
+             * Event
+             * File
+             * File mapping
+             * I/O completion port
+             * Job
+             * Mailslot
+             * Memory resource notification
+             * Mutex
+             * Named pipe
+             * Pipe
+             * Process
+             * Semaphore
+             * Thread
+             * Transaction
+             * Waitable timer
+            </summary>
+            <param name="hObject">A valid handle to an open object.</param>
+            <returns>true if it worked, use GetLastError if not</returns>
+        </member>
+        <member name="M:Dapplo.Windows.Kernel32.Kernel32Api.FreeLibrary(System.IntPtr)">
+            <summary>
+                Frees the loaded dynamic-link library (DLL) module and, if necessary, decrements its reference count.
+                When the reference count reaches zero, the module is unloaded from the address space of the calling process and the
+                handle is no longer valid.
+            See <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms683152(v=vs.85).aspx">FreeLibrary function</a>
+            </summary>
+            <param name="module">IntPtr</param>
+            <returns>true if it worked, false if an error occured</returns>
+        </member>
+        <member name="M:Dapplo.Windows.Kernel32.Kernel32Api.GetModuleHandle(System.String)">
+            <summary>
+            Retrieves a module handle for the specified module. The module must have been loaded by the calling process.
+            To avoid the race conditions described in the Remarks section, use the GetModuleHandleEx function.
+            See <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms683199(v=vs.85).aspx">GetModuleHandle function</a>
+            </summary>
+            <param name="lpModuleName">The name of the loaded module (either a .dll or .exe file). If the file name extension is omitted, the default library extension .dll is appended. The file name string can include a trailing point character (.) to indicate that the module name has no extension. The string does not have to specify a path. When specifying a path, be sure to use backslashes (\), not forward slashes (/). The name is compared (case independently) to the names of modules currently mapped into the address space of the calling process.
+            If this parameter is NULL, GetModuleHandle returns a handle to the file used to create the calling process (.exe file).
+            The GetModuleHandle function does not retrieve handles for modules that were loaded using the LOAD_LIBRARY_AS_DATAFILE flag. For more information, see LoadLibraryEx.</param>
+            <returns>If the function succeeds, the return value is a handle to the specified module.</returns>
+        </member>
+        <member name="M:Dapplo.Windows.Kernel32.Kernel32Api.GetProcessPath(System.Int32)">
+            <summary>
+                Method to get the process path
+            </summary>
+            <param name="processid">int with the process ID</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:Dapplo.Windows.Kernel32.Kernel32Api.GetProductInfo(System.Int32,System.Int32,System.Int32,System.Int32,Dapplo.Windows.Kernel32.Enums.WindowsProducts@)">
+            <summary>
+                See <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms724358.aspx">GetProductInfo function</a>
+            </summary>
+            <param name="osMajorVersion">
+                The major version number of the operating system. The minimum value is 6.
+                The combination of the dwOSMajorVersion, dwOSMinorVersion, dwSpMajorVersion, and dwSpMinorVersion parameters
+                describes the maximum target operating system version for the application. For example, Windows Vista and Windows
+                Server 2008 are version 6.0.0.0 and Windows 7 and Windows Server 2008 R2 are version 6.1.0.0.
+            </param>
+            <param name="osMinorVersion">The minor version number of the operating system. The minimum value is 0.</param>
+            <param name="spMajorVersion">The major version number of the operating system service pack. The minimum value is 0.</param>
+            <param name="spMinorVersion">The minor version number of the operating system service pack. The minimum value is 0.</param>
+            <param name="edition">WindowsProducts</param>
+            <returns></returns>
+        </member>
+        <member name="M:Dapplo.Windows.Kernel32.Kernel32Api.GetVersionEx(Dapplo.Windows.Kernel32.Structs.OsVersionInfoEx@)">
+            <summary>
+                See
+                <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms724451(v=vs.85).aspx">GetVersionEx function</a>
+            </summary>
+            <param name="osVersionInfo">OsVersionInfoEx</param>
+            <returns>If the function fails, the return value is false. To get extended error information, call GetLastError.</returns>
+        </member>
+        <member name="M:Dapplo.Windows.Kernel32.Kernel32Api.LoadLibrary(System.String)">
+            <summary>
+                Loads the specified module into the address space of the calling process. The specified module may cause other
+                modules to be loaded.
+                See <a href="https://msdn.microsoft.com/en-us/library/ms684175(VS.85).aspx">LoadLibrary function</a>
+            </summary>
+            <param name="lpFileName">string with the library</param>
+            <returns>IntPtr for the module, IntPtr.Zero if this failed, use last error to see what went wrong</returns>
+        </member>
+        <member name="M:Dapplo.Windows.Kernel32.Kernel32Api.OpenProcess(Dapplo.Windows.Kernel32.Enums.ProcessAccessRights,System.Boolean,System.Int32)">
+            <summary>
+            Opens an existing local process object.
+            See <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms684320(v=vs.85).aspx">OpenProcess function</a>
+            </summary>
+            <param name="dwDesiredAccess">ProcessAccessRights</param>
+            <param name="bInheritHandle">If this value is TRUE, processes created by this process will inherit the handle. Otherwise, the processes do not inherit this handle.</param>
+            <param name="dwProcessId">The identifier of the local process to be opened.
+            If the specified process is the System Process (0x00000000), the function fails and the last error code is ERROR_INVALID_PARAMETER. If the specified process is the Idle process or one of the CSRSS processes, this function fails and the last error code is ERROR_ACCESS_DENIED because their access restrictions prevent user-level code from opening them.</param>
+            <returns>If the function succeeds, the return value is an open handle to the specified process.</returns>
+        </member>
+        <member name="M:Dapplo.Windows.Kernel32.Kernel32Api.QueryDosDevice(System.String,System.Char*,System.Int32)">
+            <summary>
+            See <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa365461(v=vs.85).aspx">QueryDosDevice function</a>
+            </summary>
+            <param name="lpDeviceName">An MS-DOS device name string specifying the target of the query. The device name cannot have a trailing backslash; for example, use "C:", not "C:\".
+            This parameter can be NULL. In that case, the QueryDosDevice function will store a list of all existing MS-DOS device names into the buffer pointed to by lpTargetPath.</param>
+            <param name="lpTargetPath">A pointer to a buffer that will receive the result of the query. The function fills this buffer with one or more null-terminated strings. The final null-terminated string is followed by an additional NULL.
+            If lpDeviceName is non-NULL, the function retrieves information about the particular MS-DOS device specified by lpDeviceName. The first null-terminated string stored into the buffer is the current mapping for the device. The other null-terminated strings represent undeleted prior mappings for the device.
+            If lpDeviceName is NULL, the function retrieves a list of all existing MS-DOS device names. Each null-terminated string stored into the buffer is the name of an existing MS-DOS device, for example, \Device\HarddiskVolume1 or \Device\Floppy0.</param>
+            <param name="uuchMax">The maximum number of TCHARs that can be stored into the buffer pointed to by lpTargetPath.</param>
+            <returns>If the function succeeds, the return value is the number of TCHARs stored into the buffer pointed to by lpTargetPath.</returns>
+        </member>
+        <member name="M:Dapplo.Windows.Kernel32.Kernel32Api.QueryFullProcessImageName(System.IntPtr,System.UInt32,System.Char*,System.Int32@)">
+            <summary>
+            Retrieves the full name of the executable image for the specified process.
+            </summary>
+            <param name="hProcess">A handle to the process. This handle must be created with the PROCESS_QUERY_INFORMATION or PROCESS_QUERY_LIMITED_INFORMATION access right. For more information, see Process Security and Access Rights.</param>
+            <param name="dwFlags">
+            This parameter can be one of the following values:
+                0 - The name should use the Win32 path format.
+            PROCESS_NAME_NATIVE 0x00000001 - The name should use the native system path format.
+            </param>
+            <param name="lpExeName">The path to the executable image. If the function succeeds, this string is null-terminated.</param>
+            <param name="lpdwSize">On input, specifies the size of the lpExeName buffer, in characters. On success, receives the number of characters written to the buffer, not including the null-terminating character.</param>
+            <returns>
+            If the function succeeds, the return value is nonzero.
+            If the function fails, the return value is zero. To get extended error information, call GetLastError.
+            </returns>
+        </member>
+        <member name="M:Dapplo.Windows.Kernel32.Kernel32Api.GlobalAlloc(Dapplo.Windows.Kernel32.Enums.GlobalMemorySettings,System.UIntPtr)">
+            <summary>
+            Allocates the specified number of bytes from the heap.
+            See <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa366574(v=vs.85).aspx">GlobalAlloc function</a>
+            </summary>
+            <param name="globalMemorySettings">The memory allocation attributes. If zero is specified, the default is GMEM_FIXED. This parameter can be one or more of the following values, except for the incompatible combinations that are specifically noted.</param>
+            <param name="bytes">The number of bytes to allocate. If this parameter is zero and the uFlags parameter specifies GMEM_MOVEABLE, the function returns a handle to a memory object that is marked as discarded.</param>
+            <returns>
+            If the function succeeds, the return value is a handle to the newly allocated memory object.
+            If the function fails, the return value is NULL. To get extended error information, call GetLastError.
+            </returns>
+        </member>
+        <member name="M:Dapplo.Windows.Kernel32.Kernel32Api.GlobalLock(System.IntPtr)">
+            <summary>
+            Locks a global memory object and returns a pointer to the first byte of the object's memory block.
+            </summary>
+            <param name="hMem">IntPtr with a hGlobal, handle for a global memory blockk</param>
+            <returns>IntPtr to the first byte of the global memory block</returns>
+        </member>
+        <member name="M:Dapplo.Windows.Kernel32.Kernel32Api.GlobalUnlock(System.IntPtr)">
+            <summary>
+            Decrements the lock count associated with a memory object that was allocated with GMEM_MOVEABLE. This function has no effect on memory objects allocated with GMEM_FIXED.
+            If the memory object is still locked after decrementing the lock count, the return value is a nonzero value. If the memory object is unlocked after decrementing the lock count, the function returns zero and GetLastError returns NO_ERROR.
+            If the function fails, the return value is zero and GetLastError returns a value other than NO_ERROR.
+            </summary>
+            <param name="hMem">IntPtr with a hGlobal, handle for a global memory block</param>
+            <returns>bool if the unlock worked.</returns>
+        </member>
+        <member name="M:Dapplo.Windows.Kernel32.Kernel32Api.GlobalSize(System.IntPtr)">
+            <summary>
+            Retrieves the current size of the specified global memory object, in bytes.
+            </summary>
+            <param name="hMem">IntPtr with a hGlobal, handle for a global memory blockk</param>
+            <returns>int with the size</returns>
+        </member>
+        <member name="M:Dapplo.Windows.Kernel32.Kernel32Api.GetTickCount64">
+            <summary>
+            Retrieves the number of milliseconds that have elapsed since the system was started.
+            </summary>
+            <returns>ulong with the ticks</returns>
+        </member>
+        <member name="M:Dapplo.Windows.Kernel32.Kernel32Api.LocalFree(System.IntPtr)">
+            <summary>
+            This function frees the specified local memory object and invalidates its handle.
+            </summary>
+            <param name="hMem">IntPtr</param>
+            <returns>IntPtr</returns>
+        </member>
+        <member name="P:Dapplo.Windows.Kernel32.Kernel32Api.SystemStartup">
+            <summary>
+            Returns a DateTimeOffset which specifies when the system started
+            </summary>
+        </member>
+        <member name="T:Dapplo.Windows.Kernel32.PackageInfo">
+            <summary>
+                Kernel 32 functionality for app packages
+            </summary>
+        </member>
+        <member name="M:Dapplo.Windows.Kernel32.PackageInfo.GetCurrentPackageFullName(System.Int32@,System.Char*)">
+            <summary>
+            
+            </summary>
+            <param name="packageFullNameLength"></param>
+            <param name="packageFullName"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Dapplo.Windows.Kernel32.PackageInfo.CurrentPackageFullName">
+            <summary>
+            Get the current package fullname
+            </summary>
+            <returns>string</returns>
+        </member>
+        <member name="P:Dapplo.Windows.Kernel32.PackageInfo.IsRunningOnUwp">
+            <summary>
+            Test if the current process is running as a UWP app ("on the UWP")
+            </summary>
+        </member>
+        <member name="T:Dapplo.Windows.Kernel32.PsApi">
+            <summary>
+                Description of PsAPI.
+            </summary>
+        </member>
+        <member name="M:Dapplo.Windows.Kernel32.PsApi.EmptyWorkingSet(System.IntPtr)">
+            <summary>
+            Removes as many pages as possible from the working set of the specified process.
+            </summary>
+            <param name="hProcess">A handle to the process. The handle must have the PROCESS_QUERY_INFORMATION or PROCESS_QUERY_LIMITED_INFORMATION access right and the PROCESS_SET_QUOTA access right. For more information, see Process Security and Access Rights.</param>
+            <returns>If the function succeeds, the return value is nonzero.
+            If the function fails, the return value is zero. To get extended error information, call GetLastError.</returns>
+        </member>
+        <member name="M:Dapplo.Windows.Kernel32.PsApi.EmptyWorkingSet">
+            <summary>
+                Removes as many pages as possible from the current process.
+            </summary>
+        </member>
+        <member name="M:Dapplo.Windows.Kernel32.PsApi.GetModuleFilename(System.IntPtr,System.IntPtr)">
+            <summary>
+            Retrieves the fully qualified path for the file containing the specified module.
+            </summary>
+            <param name="hProcess">IntPtr, A handle to the process that contains the module.</param>
+            <param name="hModule">IntPtr A handle to the module. If this parameter is NULL, GetModuleFileNameEx returns the path of the executable file of the process specified in hProcess.</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:Dapplo.Windows.Kernel32.PsApi.GetProcessImageFileName(System.IntPtr)">
+            <summary>
+            Retrieves the fully qualified path for the file containing the specified module.
+            </summary>
+            <param name="hProcess">IntPtr, A handle to the process that contains the module.</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:Dapplo.Windows.Kernel32.PsApi.GetModuleFileNameEx(System.IntPtr,System.IntPtr,System.Char*,System.Int32)">
+            <summary>
+            Retrieves the fully qualified path for the file containing the specified module.
+            </summary>
+            <param name="hProcess">IntPtr, A handle to the process that contains the module.</param>
+            <param name="hModule">IntPtr A handle to the module. If this parameter is NULL, GetModuleFileNameEx returns the path of the executable file of the process specified in hProcess.</param>
+            <param name="lpFilename">char * that receives the full path to the executable file.</param>
+            <param name="nSize">uint</param>
+            <returns>uint If the function succeeds, the return value specifies the length of the string copied to the buffer.</returns>
+        </member>
+        <member name="M:Dapplo.Windows.Kernel32.PsApi.GetProcessImageFileName(System.IntPtr,System.Char*,System.Int32)">
+            <summary>
+            Retrieves the name of the executable file for the specified process.
+            </summary>
+            <param name="hProcess">IntPtr, A handle to the process that contains the module.</param>
+            <param name="lpImageFileName">char * that receives the full path to the executable file.</param>
+            <param name="nSize">int</param>
+            <returns>If the function succeeds, the return value specifies the length of the string copied to the buffer</returns>
+        </member>
+        <member name="T:Dapplo.Windows.Kernel32.Structs.OsVersionInfoEx">
+            <summary>
+                See <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms724833(v=vs.85).aspx">OSVERSIONINFOEX structure</a>
+            </summary>
+        </member>
+        <member name="F:Dapplo.Windows.Kernel32.Structs.OsVersionInfoEx._dwOSVersionInfoSize">
+            <summary>
+                The size of this data structure, in bytes. Set this member to sizeof(OSVERSIONINFOEX).
+            </summary>
+        </member>
+        <member name="P:Dapplo.Windows.Kernel32.Structs.OsVersionInfoEx.MajorVersion">
+            <summary>
+                The major version number of the operating system.
+            </summary>
+        </member>
+        <member name="P:Dapplo.Windows.Kernel32.Structs.OsVersionInfoEx.MinorVersion">
+            <summary>
+                The minor version number of the operating system.
+            </summary>
+        </member>
+        <member name="P:Dapplo.Windows.Kernel32.Structs.OsVersionInfoEx.BuildNumber">
+            <summary>
+                The build number of the operating system.
+            </summary>
+        </member>
+        <member name="P:Dapplo.Windows.Kernel32.Structs.OsVersionInfoEx.PlatformId">
+            <summary>
+                The operating system platform. This member can be VER_PLATFORM_WIN32_NT (2).
+            </summary>
+        </member>
+        <member name="P:Dapplo.Windows.Kernel32.Structs.OsVersionInfoEx.ServicePackVersion">
+            <summary>
+                A null-terminated string, such as "Service Pack 3", that indicates the latest Service Pack installed on the system.
+                If no Service Pack has been installed, the string is empty.
+            </summary>
+        </member>
+        <member name="P:Dapplo.Windows.Kernel32.Structs.OsVersionInfoEx.ServicePackMajor">
+            <summary>
+                The major version number of the latest Service Pack installed on the system. For example, for Service Pack 3, the
+                major version number is 3.
+                If no Service Pack has been installed, the value is zero.
+            </summary>
+        </member>
+        <member name="P:Dapplo.Windows.Kernel32.Structs.OsVersionInfoEx.ServicePackMinor">
+            <summary>
+                The minor version number of the latest Service Pack installed on the system. For example, for Service Pack 3, the
+                minor version number is 0.
+            </summary>
+        </member>
+        <member name="P:Dapplo.Windows.Kernel32.Structs.OsVersionInfoEx.SuiteMask">
+            <summary>
+                A bit mask that identifies the product suites available on the system. This member can be a combination of the
+                following values.
+            </summary>
+        </member>
+        <member name="P:Dapplo.Windows.Kernel32.Structs.OsVersionInfoEx.ProductType">
+            <summary>
+                Any additional information about the system.
+            </summary>
+        </member>
+        <member name="M:Dapplo.Windows.Kernel32.Structs.OsVersionInfoEx.Create">
+            <summary>
+            Factory for an empty OsVersionInfoEx
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,503 @@
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\PasteTubeClientCSharp.exe.config
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\PasteTubeClientCSharp.exe
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\PasteTubeClientCSharp.pdb
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\MetroFramework.Design.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\MetroFramework.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\MetroFramework.Fonts.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\QRCoder.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Drawing.Common.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\obj\Release\PasteTubeClientCSharp.form1.resources
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\obj\Release\PasteTubeClientCSharp.Properties.Resources.resources
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\obj\Release\PasteTubeClientCSharp.csproj.GenerateResource.cache
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\obj\Release\PasteTubeClientCSharp.csproj.CoreCompileInputs.cache
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\obj\Release\PasteTubeClientCSharp.csproj.CopyComplete
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\obj\Release\PasteTubeClientCSharp.exe
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\obj\Release\PasteTubeClientCSharp.pdb
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\PasteTubeClientCSharp.exe.config
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\PasteTubeClientCSharp.exe
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\PasteTubeClientCSharp.pdb
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\MetroFramework.Design.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\MetroFramework.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\MetroFramework.Fonts.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\QRCoder.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Drawing.Common.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\obj\Release\PasteTubeClientCSharp.csprojAssemblyReference.cache
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\obj\Release\PasteTubeClientCSharp.form1.resources
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\obj\Release\PasteTubeClientCSharp.Properties.Resources.resources
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\obj\Release\PasteTubeClientCSharp.csproj.GenerateResource.cache
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\obj\Release\PasteTubeClientCSharp.csproj.CoreCompileInputs.cache
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\obj\Release\PasteTubeClientCSharp.csproj.CopyComplete
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\obj\Release\PasteTubeClientCSharp.exe
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\obj\Release\PasteTubeClientCSharp.pdb
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\Newtonsoft.Json.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\Newtonsoft.Json.pdb
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\Newtonsoft.Json.xml
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\Microsoft.Win32.Primitives.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\netstandard.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.AppContext.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Collections.Concurrent.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Collections.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Collections.NonGeneric.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Collections.Specialized.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.ComponentModel.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.ComponentModel.EventBasedAsync.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.ComponentModel.Primitives.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.ComponentModel.TypeConverter.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Console.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Data.Common.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Diagnostics.Contracts.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Diagnostics.Debug.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Diagnostics.Process.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Diagnostics.StackTrace.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Diagnostics.Tools.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Diagnostics.TraceSource.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Diagnostics.Tracing.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Drawing.Primitives.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Dynamic.Runtime.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Globalization.Calendars.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Globalization.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Globalization.Extensions.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.IO.Compression.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.IO.Compression.ZipFile.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.IO.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.IO.FileSystem.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.IO.FileSystem.Primitives.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.IO.FileSystem.Watcher.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.IO.IsolatedStorage.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.IO.MemoryMappedFiles.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.IO.Pipes.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.IO.UnmanagedMemoryStream.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Linq.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Linq.Expressions.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Linq.Parallel.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Linq.Queryable.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Net.Http.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Net.NameResolution.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Net.NetworkInformation.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Net.Ping.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Net.Primitives.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Net.Requests.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Net.Security.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Net.Sockets.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Net.WebHeaderCollection.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Net.WebSockets.Client.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Net.WebSockets.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.ObjectModel.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Reflection.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Reflection.Extensions.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Reflection.Primitives.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Resources.Reader.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Resources.ResourceManager.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Resources.Writer.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Runtime.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Runtime.Extensions.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Runtime.Handles.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Runtime.InteropServices.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Runtime.Numerics.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Runtime.Serialization.Formatters.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Runtime.Serialization.Json.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Runtime.Serialization.Primitives.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Runtime.Serialization.Xml.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Security.Claims.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Security.Cryptography.Algorithms.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Security.Cryptography.Csp.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Security.Cryptography.Encoding.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Security.Cryptography.Primitives.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Security.Principal.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Security.SecureString.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Text.Encoding.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Text.Encoding.Extensions.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Text.RegularExpressions.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Threading.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Threading.Overlapped.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Threading.Tasks.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Threading.Tasks.Parallel.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Threading.Thread.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Threading.ThreadPool.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Threading.Timer.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Xml.ReaderWriter.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Xml.XDocument.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Xml.XmlDocument.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Xml.XmlSerializer.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Xml.XPath.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Xml.XPath.XDocument.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\Dapplo.Log.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\Dapplo.Windows.Clipboard.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\Dapplo.Windows.Common.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\Dapplo.Windows.Kernel32.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\Dapplo.Windows.Messages.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\Microsoft.Win32.Registry.AccessControl.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\Microsoft.Win32.Registry.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\Microsoft.Win32.SystemEvents.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.CodeDom.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.ComponentModel.Annotations.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Configuration.ConfigurationManager.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Data.Odbc.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Data.SqlClient.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Diagnostics.EventLog.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Diagnostics.PerformanceCounter.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.IO.FileSystem.AccessControl.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.IO.Packaging.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.IO.Pipes.AccessControl.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.IO.Ports.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Reactive.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Security.AccessControl.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Security.Cryptography.Cng.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Security.Cryptography.Pkcs.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Security.Cryptography.Xml.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Security.Permissions.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Security.Principal.Windows.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.ServiceModel.Duplex.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.ServiceModel.Http.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.ServiceModel.NetTcp.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.ServiceModel.Primitives.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.ServiceModel.Syndication.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.ServiceProcess.ServiceController.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Text.Encoding.CodePages.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Threading.AccessControl.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Threading.Tasks.Extensions.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.ValueTuple.dll
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\Dapplo.Log.pdb
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\Dapplo.Log.xml
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\Dapplo.Windows.Clipboard.pdb
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\Dapplo.Windows.Clipboard.xml
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\Dapplo.Windows.Common.pdb
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\Dapplo.Windows.Common.xml
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\Dapplo.Windows.Kernel32.pdb
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\Dapplo.Windows.Kernel32.xml
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\Dapplo.Windows.Messages.pdb
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\Dapplo.Windows.Messages.xml
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Reactive.xml
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Threading.Tasks.Extensions.xml
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.ValueTuple.xml
+C:\Users\Heinzeri\Desktop\PasteTubeClientCSharp\PasteTubeClientCSharp\obj\Release\PasteTubeClientCSharp.exe.config
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\Microsoft.Win32.Primitives.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\netstandard.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.AppContext.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Collections.Concurrent.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Collections.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Collections.NonGeneric.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Collections.Specialized.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.ComponentModel.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.ComponentModel.EventBasedAsync.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.ComponentModel.Primitives.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.ComponentModel.TypeConverter.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Console.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Data.Common.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Diagnostics.Contracts.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Diagnostics.Debug.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Diagnostics.FileVersionInfo.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Diagnostics.Process.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Diagnostics.StackTrace.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Diagnostics.TextWriterTraceListener.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Diagnostics.Tools.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Diagnostics.TraceSource.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Diagnostics.Tracing.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Drawing.Primitives.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Dynamic.Runtime.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Globalization.Calendars.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Globalization.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Globalization.Extensions.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.IO.Compression.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.IO.Compression.ZipFile.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.IO.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.IO.FileSystem.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.IO.FileSystem.DriveInfo.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.IO.FileSystem.Primitives.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.IO.FileSystem.Watcher.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.IO.IsolatedStorage.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.IO.MemoryMappedFiles.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.IO.Pipes.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.IO.UnmanagedMemoryStream.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Linq.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Linq.Expressions.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Linq.Parallel.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Linq.Queryable.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Net.Http.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Net.NameResolution.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Net.NetworkInformation.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Net.Ping.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Net.Primitives.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Net.Requests.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Net.Security.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Net.Sockets.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Net.WebHeaderCollection.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Net.WebSockets.Client.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Net.WebSockets.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.ObjectModel.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Reflection.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Reflection.Extensions.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Reflection.Primitives.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Resources.Reader.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Resources.ResourceManager.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Resources.Writer.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Runtime.CompilerServices.VisualC.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Runtime.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Runtime.Extensions.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Runtime.Handles.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Runtime.InteropServices.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Runtime.InteropServices.RuntimeInformation.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Runtime.Numerics.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Runtime.Serialization.Formatters.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Runtime.Serialization.Json.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Runtime.Serialization.Primitives.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Runtime.Serialization.Xml.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Security.Claims.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Security.Cryptography.Algorithms.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Security.Cryptography.Csp.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Security.Cryptography.Encoding.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Security.Cryptography.Primitives.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Security.Cryptography.X509Certificates.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Security.Principal.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Security.SecureString.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Text.Encoding.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Text.Encoding.Extensions.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Text.RegularExpressions.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Threading.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Threading.Overlapped.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Threading.Tasks.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Threading.Tasks.Parallel.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Threading.Thread.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Threading.ThreadPool.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Threading.Timer.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Xml.ReaderWriter.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Xml.XDocument.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Xml.XmlDocument.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Xml.XmlSerializer.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Xml.XPath.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Xml.XPath.XDocument.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\Dapplo.Log.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\Dapplo.Windows.Clipboard.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\Dapplo.Windows.Common.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\Dapplo.Windows.Kernel32.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\Dapplo.Windows.Messages.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\Microsoft.DotNet.PlatformAbstractions.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\Microsoft.Win32.Registry.AccessControl.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\Microsoft.Win32.Registry.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\Microsoft.Win32.SystemEvents.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\Newtonsoft.Json.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.CodeDom.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.ComponentModel.Annotations.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Configuration.ConfigurationManager.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Data.Odbc.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Data.SqlClient.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Diagnostics.EventLog.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Diagnostics.PerformanceCounter.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.IO.FileSystem.AccessControl.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.IO.Packaging.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.IO.Pipes.AccessControl.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.IO.Ports.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Reactive.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Security.AccessControl.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Security.Cryptography.Cng.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Security.Cryptography.Pkcs.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Security.Cryptography.ProtectedData.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Security.Cryptography.Xml.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Security.Permissions.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Security.Principal.Windows.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.ServiceModel.Duplex.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.ServiceModel.Http.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.ServiceModel.NetTcp.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.ServiceModel.Primitives.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.ServiceModel.Syndication.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.ServiceProcess.ServiceController.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Text.Encoding.CodePages.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Threading.AccessControl.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Threading.Tasks.Extensions.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.ValueTuple.dll
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\Dapplo.Log.pdb
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\Dapplo.Log.xml
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\Dapplo.Windows.Clipboard.pdb
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\Dapplo.Windows.Clipboard.xml
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\Dapplo.Windows.Common.pdb
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\Dapplo.Windows.Common.xml
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\Dapplo.Windows.Kernel32.pdb
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\Dapplo.Windows.Kernel32.xml
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\Dapplo.Windows.Messages.pdb
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\Dapplo.Windows.Messages.xml
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\Newtonsoft.Json.pdb
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\Newtonsoft.Json.xml
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Reactive.xml
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Runtime.CompilerServices.Unsafe.xml
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Threading.Tasks.Extensions.xml
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.ValueTuple.xml
+G:\Meine Ablage\Ivan Heinzer\Eigene Projekte\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\obj\Release\PasteTubeClientCSharp.exe.config
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\PasteTubeClientCSharp.exe.config
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\PasteTubeClientCSharp.exe
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\PasteTubeClientCSharp.pdb
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\Microsoft.Win32.Primitives.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\netstandard.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.AppContext.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Collections.Concurrent.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Collections.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Collections.NonGeneric.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Collections.Specialized.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.ComponentModel.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.ComponentModel.EventBasedAsync.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.ComponentModel.Primitives.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.ComponentModel.TypeConverter.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Console.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Data.Common.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Diagnostics.Contracts.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Diagnostics.Debug.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Diagnostics.Process.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Diagnostics.StackTrace.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Diagnostics.Tools.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Diagnostics.TraceSource.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Diagnostics.Tracing.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Drawing.Primitives.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Dynamic.Runtime.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Globalization.Calendars.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Globalization.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Globalization.Extensions.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.IO.Compression.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.IO.Compression.ZipFile.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.IO.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.IO.FileSystem.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.IO.FileSystem.Primitives.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.IO.FileSystem.Watcher.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.IO.IsolatedStorage.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.IO.MemoryMappedFiles.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.IO.Pipes.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.IO.UnmanagedMemoryStream.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Linq.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Linq.Expressions.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Linq.Parallel.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Linq.Queryable.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Net.Http.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Net.NameResolution.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Net.NetworkInformation.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Net.Ping.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Net.Primitives.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Net.Requests.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Net.Security.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Net.Sockets.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Net.WebHeaderCollection.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Net.WebSockets.Client.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Net.WebSockets.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.ObjectModel.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Reflection.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Reflection.Extensions.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Reflection.Primitives.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Resources.Reader.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Resources.ResourceManager.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Resources.Writer.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Runtime.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Runtime.Extensions.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Runtime.Handles.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Runtime.InteropServices.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Runtime.Numerics.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Runtime.Serialization.Formatters.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Runtime.Serialization.Json.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Runtime.Serialization.Primitives.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Runtime.Serialization.Xml.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Security.Claims.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Security.Cryptography.Algorithms.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Security.Cryptography.Csp.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Security.Cryptography.Encoding.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Security.Cryptography.Primitives.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Security.Principal.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Security.SecureString.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Text.Encoding.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Text.Encoding.Extensions.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Text.RegularExpressions.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Threading.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Threading.Overlapped.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Threading.Tasks.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Threading.Tasks.Parallel.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Threading.Thread.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Threading.ThreadPool.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Threading.Timer.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Xml.ReaderWriter.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Xml.XDocument.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Xml.XmlDocument.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Xml.XmlSerializer.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Xml.XPath.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Xml.XPath.XDocument.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\Dapplo.Log.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\Dapplo.Windows.Clipboard.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\Dapplo.Windows.Common.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\Dapplo.Windows.Kernel32.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\Dapplo.Windows.Messages.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\MetroFramework.Design.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\MetroFramework.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\MetroFramework.Fonts.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\Microsoft.Win32.Registry.AccessControl.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\Microsoft.Win32.Registry.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\Microsoft.Win32.SystemEvents.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\Newtonsoft.Json.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\QRCoder.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.CodeDom.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.ComponentModel.Annotations.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Configuration.ConfigurationManager.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Data.Odbc.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Data.SqlClient.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Diagnostics.EventLog.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Diagnostics.PerformanceCounter.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Drawing.Common.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.IO.FileSystem.AccessControl.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.IO.Packaging.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.IO.Pipes.AccessControl.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.IO.Ports.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Reactive.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Security.AccessControl.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Security.Cryptography.Cng.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Security.Cryptography.Pkcs.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Security.Cryptography.Xml.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Security.Permissions.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Security.Principal.Windows.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.ServiceModel.Duplex.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.ServiceModel.Http.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.ServiceModel.NetTcp.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.ServiceModel.Primitives.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.ServiceModel.Syndication.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.ServiceProcess.ServiceController.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Text.Encoding.CodePages.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Threading.AccessControl.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Threading.Tasks.Extensions.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.ValueTuple.dll
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\Dapplo.Log.pdb
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\Dapplo.Log.xml
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\Dapplo.Windows.Clipboard.pdb
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\Dapplo.Windows.Clipboard.xml
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\Dapplo.Windows.Common.pdb
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\Dapplo.Windows.Common.xml
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\Dapplo.Windows.Kernel32.pdb
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\Dapplo.Windows.Kernel32.xml
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\Dapplo.Windows.Messages.pdb
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\Dapplo.Windows.Messages.xml
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\Newtonsoft.Json.pdb
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\Newtonsoft.Json.xml
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Reactive.xml
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.Threading.Tasks.Extensions.xml
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\bin\Release\System.ValueTuple.xml
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\obj\Release\PasteTubeClientCSharp.csprojAssemblyReference.cache
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\obj\Release\PasteTubeClientCSharp.exe.config
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\obj\Release\PasteTubeClientCSharp.form1.resources
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\obj\Release\PasteTubeClientCSharp.Properties.Resources.resources
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\obj\Release\PasteTubeClientCSharp.csproj.GenerateResource.cache
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\obj\Release\PasteTubeClientCSharp.csproj.CoreCompileInputs.cache
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\obj\Release\PasteTubeClientCSharp.csproj.CopyComplete
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\obj\Release\PasteTubeClientCSharp.exe
+C:\Users\Heinzeri\Desktop\PasteTube\PasteTubeClientCSharp\PasteTubeClientCSharp\obj\Release\PasteTubeClientCSharp.pdb

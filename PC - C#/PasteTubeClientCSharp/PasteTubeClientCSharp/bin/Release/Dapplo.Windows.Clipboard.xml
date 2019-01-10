@@ -1,0 +1,793 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Dapplo.Windows.Clipboard</name>
+    </assembly>
+    <members>
+        <member name="T:Dapplo.Windows.Clipboard.ClipboardAccessDeniedException">
+            <inheritdoc />
+        </member>
+        <member name="M:Dapplo.Windows.Clipboard.ClipboardAccessDeniedException.#ctor">
+            <inheritdoc />
+        </member>
+        <member name="M:Dapplo.Windows.Clipboard.ClipboardAccessDeniedException.#ctor(System.String)">
+            <inheritdoc />
+        </member>
+        <member name="M:Dapplo.Windows.Clipboard.ClipboardAccessDeniedException.#ctor(System.String,System.Exception)">
+            <inheritdoc />
+        </member>
+        <member name="T:Dapplo.Windows.Clipboard.ClipboardByteExtensions">
+            <summary>
+            These are extensions to work with the clipboard
+            </summary>
+        </member>
+        <member name="M:Dapplo.Windows.Clipboard.ClipboardByteExtensions.GetAsBytes(Dapplo.Windows.Clipboard.IClipboardAccessToken,Dapplo.Windows.Clipboard.StandardClipboardFormats)">
+            <summary>
+            Retrieve the content for the specified format.
+            You will need to "lock" (OpenClipboard) the clipboard before calling this.
+            </summary>
+            <param name="clipboardAccessToken">IClipboardLock</param>
+            <param name="format">StandardClipboardFormats with the format to retrieve the content for</param>
+            <returns>byte array</returns>
+        </member>
+        <member name="M:Dapplo.Windows.Clipboard.ClipboardByteExtensions.GetAsBytes(Dapplo.Windows.Clipboard.IClipboardAccessToken,System.String)">
+            <summary>
+            Retrieve the content for the specified format.
+            You will need to "lock" (OpenClipboard) the clipboard before calling this.
+            </summary>
+            <param name="clipboardAccessToken">IClipboardLock</param>
+            <param name="format">string with the format to retrieve the content for</param>
+            <returns>byte array</returns>
+        </member>
+        <member name="M:Dapplo.Windows.Clipboard.ClipboardByteExtensions.GetAsBytes(Dapplo.Windows.Clipboard.IClipboardAccessToken,System.UInt32)">
+            <summary>
+            Retrieve the content for the specified format.
+            You will need to "lock" (OpenClipboard) the clipboard before calling this.
+            </summary>
+            <param name="clipboardAccessToken">IClipboardLock</param>
+            <param name="formatId">uint with the format to retrieve the content for</param>
+            <returns>byte array</returns>
+        </member>
+        <member name="M:Dapplo.Windows.Clipboard.ClipboardByteExtensions.SetAsBytes(Dapplo.Windows.Clipboard.IClipboardAccessToken,System.Byte[],Dapplo.Windows.Clipboard.StandardClipboardFormats)">
+            <summary>
+            Place byte[] on the clipboard, this assumes you already locked the clipboard.
+            </summary>
+            <param name="clipboardAccessToken">IClipboardLock</param>
+            <param name="bytes">bytes to place on the clipboard</param>
+            <param name="format">StandardClipboardFormats with format to place the bytes under</param>
+        </member>
+        <member name="M:Dapplo.Windows.Clipboard.ClipboardByteExtensions.SetAsBytes(Dapplo.Windows.Clipboard.IClipboardAccessToken,System.Byte[],System.String)">
+            <summary>
+            Place byte[] on the clipboard, this assumes you already locked the clipboard.
+            </summary>
+            <param name="clipboardAccessToken">IClipboardLock</param>
+            <param name="bytes">bytes to place on the clipboard</param>
+            <param name="format">string with the format to place the bytes under</param>
+        </member>
+        <member name="M:Dapplo.Windows.Clipboard.ClipboardByteExtensions.SetAsBytes(Dapplo.Windows.Clipboard.IClipboardAccessToken,System.Byte[],System.UInt32)">
+            <summary>
+            Place byte[] on the clipboard, this assumes you already locked the clipboard.
+            </summary>
+            <param name="clipboardAccessToken">IClipboardLock</param>
+            <param name="bytes">bytes to place on the clipboard</param>
+            <param name="formatId">uint with the format ID to place the bytes under</param>
+        </member>
+        <member name="T:Dapplo.Windows.Clipboard.ClipboardFileExtensions">
+            <summary>
+            These are extensions to work with the clipboard
+            </summary>
+        </member>
+        <member name="M:Dapplo.Windows.Clipboard.ClipboardFileExtensions.GetFilenames(Dapplo.Windows.Clipboard.IClipboardAccessToken)">
+            <summary>
+            Get a list of filenames on the clipboard
+            </summary>
+            <param name="clipboardAccessToken">IClipboard</param>
+            <returns>IEnumerable of string</returns>
+        </member>
+        <member name="T:Dapplo.Windows.Clipboard.ClipboardFormatExtensions">
+            <summary>
+            These are extensions to work with the clipboard
+            </summary>
+        </member>
+        <member name="M:Dapplo.Windows.Clipboard.ClipboardFormatExtensions.#cctor">
+            <summary>
+            Initialize the static data of the class
+            </summary>
+        </member>
+        <member name="M:Dapplo.Windows.Clipboard.ClipboardFormatExtensions.AsString(Dapplo.Windows.Clipboard.StandardClipboardFormats)">
+            <summary>
+            Get the format string for the StandardClipboardFormats
+            </summary>
+            <param name="format">StandardClipboardFormats</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:Dapplo.Windows.Clipboard.ClipboardFormatExtensions.MapFormatToId(System.String)">
+            <summary>
+            Method to map a clipboard format to an ID
+            </summary>
+            <param name="format">clipboard format</param>
+            <returns>uint with the id</returns>
+        </member>
+        <member name="M:Dapplo.Windows.Clipboard.ClipboardFormatExtensions.MapIdToFormat(System.UInt32)">
+            <summary>
+            Method to map a clipboard ID to a format name
+            </summary>
+            <param name="formatId">clipboard format ID</param>
+            <returns>string with the format</returns>
+        </member>
+        <member name="M:Dapplo.Windows.Clipboard.ClipboardFormatExtensions.RegisterFormat(System.String)">
+            <summary>
+            Register the clipboard format, so we can use it
+            </summary>
+            <param name="format">string with the format to register</param>
+            <returns>uint for the format</returns>
+        </member>
+        <member name="M:Dapplo.Windows.Clipboard.ClipboardFormatExtensions.AvailableFormats(Dapplo.Windows.Clipboard.IClipboardAccessToken)">
+            <summary>
+                Enumerate through all formats on the clipboard, assumes the clipboard was already locked.
+            </summary>
+            <returns>IEnumerable with strings defining the format</returns>
+        </member>
+        <member name="M:Dapplo.Windows.Clipboard.ClipboardFormatExtensions.AvailableFormatIds(Dapplo.Windows.Clipboard.IClipboardAccessToken)">
+            <summary>
+                Enumerate through all formats on the clipboard, assumes the clipboard was already locked.
+            </summary>
+            <returns>IEnumerable with strings defining the format</returns>
+        </member>
+        <member name="T:Dapplo.Windows.Clipboard.ClipboardMiscExtensions">
+            <summary>
+            These are extensions to work with the clipboard
+            </summary>
+        </member>
+        <member name="M:Dapplo.Windows.Clipboard.ClipboardMiscExtensions.ClearContents(Dapplo.Windows.Clipboard.IClipboardAccessToken)">
+            <summary>
+            Empties the clipboard, this assumes that a lock has already been retrieved.
+            </summary>
+        </member>
+        <member name="T:Dapplo.Windows.Clipboard.ClipboardNative">
+            <summary>
+            Provides low level access to the Windows clipboard
+            </summary>
+        </member>
+        <member name="M:Dapplo.Windows.Clipboard.ClipboardNative.Access(System.IntPtr,System.Int32,System.Nullable{System.TimeSpan},System.Nullable{System.TimeSpan})">
+            <summary>
+            Get access, a global lock, to the clipboard
+            </summary>
+            <param name="hWnd">IntPtr with the windows handle</param>
+            <param name="retries">int with the amount of lock attempts are made</param>
+            <param name="retryInterval">Timespan between retries, default 200ms</param>
+            <param name="timeout">Timeout for getting the lock</param>
+            <returns>IClipboard, which will unlock when Dispose is called</returns>
+        </member>
+        <member name="M:Dapplo.Windows.Clipboard.ClipboardNative.AccessAsync(System.IntPtr,System.Int32,System.Nullable{System.TimeSpan},System.Nullable{System.TimeSpan},System.Threading.CancellationToken)">
+            <summary>
+            Get access, a global lock, to the clipboard
+            </summary>
+            <param name="hWnd">IntPtr with the windows handle</param>
+            <param name="retries">int with the amount of lock attempts are made</param>
+            <param name="retryInterval">Timespan between retries, default 200ms</param>
+            <param name="timeout">Timespan to wait for a lock, default 1000ms</param>
+            <param name="cancellationToken">CancellationToken</param>
+            <returns>IClipboard in a Task, which will unlock when Dispose is called</returns>
+        </member>
+        <member name="P:Dapplo.Windows.Clipboard.ClipboardNative.CurrentOwner">
+            <summary>
+            Retrieves the current owner
+            </summary>
+        </member>
+        <member name="P:Dapplo.Windows.Clipboard.ClipboardNative.SequenceNumber">
+            <summary>
+            Retrieves the current clipboard sequence number via GetClipboardSequenceNumber
+            This returns 0 if there is no WINSTA_ACCESSCLIPBOARD
+            </summary>
+        </member>
+        <member name="T:Dapplo.Windows.Clipboard.ClipboardStreamExtensions">
+            <summary>
+            These are extensions to work with the clipboard
+            </summary>
+        </member>
+        <member name="M:Dapplo.Windows.Clipboard.ClipboardStreamExtensions.SetAsStream(Dapplo.Windows.Clipboard.IClipboardAccessToken,Dapplo.Windows.Clipboard.StandardClipboardFormats,System.IO.Stream,System.Nullable{System.Int64})">
+            <summary>
+            Set the content for the specified format.
+            You will need to "lock" (OpenClipboard) the clipboard before calling this.
+            </summary>
+            <param name="clipboardAccessToken">IClipboardLock</param>
+            <param name="format">StandardClipboardFormats with the format to set the content for</param>
+            <param name="stream">MemoryStream with the content</param>
+            <param name="size">long with the size, if the stream is not seekable</param>
+        </member>
+        <member name="M:Dapplo.Windows.Clipboard.ClipboardStreamExtensions.SetAsStream(Dapplo.Windows.Clipboard.IClipboardAccessToken,System.String,System.IO.Stream,System.Nullable{System.Int64})">
+            <summary>
+            Set the content for the specified format.
+            You will need to "lock" (OpenClipboard) the clipboard before calling this.
+            </summary>
+            <param name="clipboardAccessToken">IClipboardLock</param>
+            <param name="format">string with the format to set the content for</param>
+            <param name="stream">MemoryStream with the content</param>
+            <param name="size">long with the size, if the stream is not seekable</param>
+        </member>
+        <member name="M:Dapplo.Windows.Clipboard.ClipboardStreamExtensions.SetAsStream(Dapplo.Windows.Clipboard.IClipboardAccessToken,System.UInt32,System.IO.Stream,System.Nullable{System.Int64})">
+            <summary>
+            Set the content for the specified format.
+            You will need to "lock" (OpenClipboard) the clipboard before calling this.
+            </summary>
+            <param name="clipboardAccessToken">IClipboardLock</param>
+            <param name="formatId">uint with the format to set the content for</param>
+            <param name="stream">MemoryStream with the content</param>
+            <param name="size">long with the size, if the stream is not seekable</param>
+        </member>
+        <member name="M:Dapplo.Windows.Clipboard.ClipboardStreamExtensions.GetAsStream(Dapplo.Windows.Clipboard.IClipboardAccessToken,Dapplo.Windows.Clipboard.StandardClipboardFormats)">
+            <summary>
+            Retrieve the content for the specified format.
+            You will need to "lock" (OpenClipboard) the clipboard before calling this.
+            </summary>
+            <param name="clipboardAccessToken">IClipboardLock</param>
+            <param name="format">StandardClipboardFormats with the format to retrieve the content for</param>
+            <returns>MemoryStream</returns>
+        </member>
+        <member name="M:Dapplo.Windows.Clipboard.ClipboardStreamExtensions.GetAsStream(Dapplo.Windows.Clipboard.IClipboardAccessToken,System.String)">
+            <summary>
+            Retrieve the content for the specified format.
+            You will need to "lock" (OpenClipboard) the clipboard before calling this.
+            </summary>
+            <param name="clipboardAccessToken">IClipboardLock</param>
+            <param name="format">string with the format to retrieve the content for</param>
+            <returns>MemoryStream</returns>
+        </member>
+        <member name="M:Dapplo.Windows.Clipboard.ClipboardStreamExtensions.GetAsStream(Dapplo.Windows.Clipboard.IClipboardAccessToken,System.UInt32)">
+            <summary>
+            Retrieve the content for the specified format.
+            You will need to "lock" (OpenClipboard) the clipboard before calling this.
+            </summary>
+            <param name="clipboardAccessToken">IClipboardLock</param>
+            <param name="formatId">uint with the format to retrieve the content for</param>
+            <returns>MemoryStream</returns>
+        </member>
+        <member name="T:Dapplo.Windows.Clipboard.ClipboardStringExtensions">
+            <summary>
+            These are extensions to work with the clipboard
+            </summary>
+        </member>
+        <member name="M:Dapplo.Windows.Clipboard.ClipboardStringExtensions.SetAsUnicodeString(Dapplo.Windows.Clipboard.IClipboardAccessToken,System.String,Dapplo.Windows.Clipboard.StandardClipboardFormats)">
+            <summary>
+            Place string on the clipboard, this assumes you already locked the clipboard.
+            </summary>
+            <param name="clipboardAccessToken">IClipboardLock</param>
+            <param name="text">string to place on the clipboard</param>
+            <param name="format">StandardClipboardFormats with the clipboard format to use</param>
+        </member>
+        <member name="M:Dapplo.Windows.Clipboard.ClipboardStringExtensions.SetAsUnicodeString(Dapplo.Windows.Clipboard.IClipboardAccessToken,System.String,System.String)">
+            <summary>
+            Place string on the clipboard, this assumes you already locked the clipboard.
+            </summary>
+            <param name="clipboardAccessToken">IClipboardLock</param>
+            <param name="text">string to place on the clipboard</param>
+            <param name="format">string with the clipboard format to use</param>
+        </member>
+        <member name="M:Dapplo.Windows.Clipboard.ClipboardStringExtensions.SetAsUnicodeString(Dapplo.Windows.Clipboard.IClipboardAccessToken,System.String,System.UInt32)">
+            <summary>
+            Place string on the clipboard, this assumes you already locked the clipboard.
+            It uses Unicode (CF_UNICODETEXT) by default, as all other formats are automatically generated from this by Windows.
+            </summary>
+            <param name="clipboardAccessToken">IClipboardLock</param>
+            <param name="text">string to place on the clipboard</param>
+            <param name="formatId">uint with the clipboard format id</param>
+        </member>
+        <member name="M:Dapplo.Windows.Clipboard.ClipboardStringExtensions.GetAsUnicodeString(Dapplo.Windows.Clipboard.IClipboardAccessToken,Dapplo.Windows.Clipboard.StandardClipboardFormats)">
+            <summary>
+            Get a string from the clipboard, this assumes you already locked the clipboard.
+            </summary>
+            <param name="clipboardAccessToken">IClipboardLock</param>
+            <param name="format">StandardClipboardFormats with the clipboard format</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:Dapplo.Windows.Clipboard.ClipboardStringExtensions.GetAsUnicodeString(Dapplo.Windows.Clipboard.IClipboardAccessToken,System.String)">
+            <summary>
+            Get a string from the clipboard, this assumes you already locked the clipboard.
+            This always takes the CF_UNICODETEXT format, as Windows automatically converts
+            </summary>
+            <param name="clipboardAccessToken">IClipboardLock</param>
+            <param name="format">string with the clipboard format</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:Dapplo.Windows.Clipboard.ClipboardStringExtensions.GetAsUnicodeString(Dapplo.Windows.Clipboard.IClipboardAccessToken,System.UInt32)">
+            <summary>
+            Get a string from the clipboard, this assumes you already locked the clipboard.
+            This by default takes the CF_UNICODETEXT format, as Windows automatically converts
+            </summary>
+            <param name="clipboardAccessToken">IClipboardLock</param>
+            <param name="formatId">uint with the clipboard format</param>
+            <returns>string</returns>
+        </member>
+        <member name="T:Dapplo.Windows.Clipboard.ClipboardUpdateInformation">
+            <summary>
+            Information about what the clipboard contained at the most recent clipboard update.
+            </summary>
+        </member>
+        <member name="P:Dapplo.Windows.Clipboard.ClipboardUpdateInformation.Id">
+            <summary>
+            Sequence-number of the clipboard, starts at 0 when the Windows session starts
+            </summary>
+        </member>
+        <member name="P:Dapplo.Windows.Clipboard.ClipboardUpdateInformation.Timestamp">
+            <summary>
+            Timestamp of the clipboard update event, this value will not be correct for the first event
+            </summary>
+        </member>
+        <member name="P:Dapplo.Windows.Clipboard.ClipboardUpdateInformation.OwnerHandle">
+            <summary>
+            The handle of the window which owns the clipboard content
+            </summary>
+        </member>
+        <member name="P:Dapplo.Windows.Clipboard.ClipboardUpdateInformation.Formats">
+            <summary>
+            The formats in this clipboard contents
+            </summary>
+        </member>
+        <member name="P:Dapplo.Windows.Clipboard.ClipboardUpdateInformation.FormatIds">
+            <summary>
+            The formats in this clipboard contents
+            </summary>
+        </member>
+        <member name="M:Dapplo.Windows.Clipboard.ClipboardUpdateInformation.#ctor(Dapplo.Windows.Clipboard.IClipboardAccessToken)">
+            <summary>
+            This class can only be instanciated when there is a clipboard lock, that is why the constructor is private.
+            </summary>
+        </member>
+        <member name="M:Dapplo.Windows.Clipboard.ClipboardUpdateInformation.Create(System.IntPtr)">
+            <summary>
+            Factory method
+            </summary>
+            <param name="hWnd">IntPtr, optional, with the hWnd for the clipboard lock</param>
+            <returns>ClipboardUpdateInformation</returns>
+        </member>
+        <member name="T:Dapplo.Windows.Clipboard.IClipboardAccessToken">
+            <summary>
+            This interface is returned by the ClipboardNative.Access(), which calls the ClipboardLockProvider.
+            The access token is only valid within the same thread or window.
+            When you got a IClipboardAccessToken, you can access the clipboard, until it's disposed.
+            Don't forget to dispose this!!!
+            </summary>
+        </member>
+        <member name="P:Dapplo.Windows.Clipboard.IClipboardAccessToken.CanAccess">
+            <summary>
+            Check if the clipboard can be accessed
+            </summary>
+        </member>
+        <member name="P:Dapplo.Windows.Clipboard.IClipboardAccessToken.IsLockTimeout">
+            <summary>
+            The clipboard access was denied due to a timeout
+            </summary>
+        </member>
+        <member name="P:Dapplo.Windows.Clipboard.IClipboardAccessToken.IsOpenTimeout">
+            <summary>
+            The clipboard couldn't be opened
+            </summary>
+        </member>
+        <member name="M:Dapplo.Windows.Clipboard.IClipboardAccessToken.ThrowWhenNoAccess">
+            <summary>
+            This throws a ClipboardAccessDeniedException when the clipboard can't be accessed
+            </summary>
+        </member>
+        <member name="T:Dapplo.Windows.Clipboard.Internals.ClipboardAccessToken">
+            <summary>
+            This is the clipboard access token
+            </summary>
+        </member>
+        <member name="M:Dapplo.Windows.Clipboard.Internals.ClipboardAccessToken.Dispose">
+            <inheritdoc />
+        </member>
+        <member name="P:Dapplo.Windows.Clipboard.Internals.ClipboardAccessToken.CanAccess">
+            <inheritdoc />
+        </member>
+        <member name="P:Dapplo.Windows.Clipboard.Internals.ClipboardAccessToken.IsOpenTimeout">
+            <inheritdoc />
+        </member>
+        <member name="P:Dapplo.Windows.Clipboard.Internals.ClipboardAccessToken.IsLockTimeout">
+            <inheritdoc />
+        </member>
+        <member name="M:Dapplo.Windows.Clipboard.Internals.ClipboardAccessToken.ThrowWhenNoAccess">
+            <inheritdoc />
+        </member>
+        <member name="M:Dapplo.Windows.Clipboard.Internals.ClipboardInfoExtensions.ReadInfo(Dapplo.Windows.Clipboard.IClipboardAccessToken,System.UInt32)">
+            <summary>
+            Create ClipboardNativeInfo to read
+            </summary>
+            <param name="clipboardAccessToken">IClipboardLock</param>
+            <param name="formatId">uint</param>
+            <returns>ClipboardNativeInfo</returns>
+        </member>
+        <member name="M:Dapplo.Windows.Clipboard.Internals.ClipboardInfoExtensions.WriteInfo(Dapplo.Windows.Clipboard.IClipboardAccessToken,System.UInt32,System.Int64)">
+            <summary>
+            Factory for the write information
+            </summary>
+            <param name="clipboardAccessToken">IClipboardLock</param>
+            <param name="formatId">uint with the format id</param>
+            <param name="size">int with the size of the clipboard area</param>
+            <returns>ClipboardNativeInfo</returns>
+        </member>
+        <member name="T:Dapplo.Windows.Clipboard.Internals.ClipboardNativeInfo">
+            <summary>
+            This class contains native information to handle the clipboard contents
+            </summary>
+        </member>
+        <member name="P:Dapplo.Windows.Clipboard.Internals.ClipboardNativeInfo.FormatId">
+            <summary>
+            The format id which is processed
+            </summary>
+        </member>
+        <member name="P:Dapplo.Windows.Clipboard.Internals.ClipboardNativeInfo.Size">
+            <summary>
+            Returns the size of the clipboard area
+            </summary>
+        </member>
+        <member name="M:Dapplo.Windows.Clipboard.Internals.ClipboardNativeInfo.Dispose">
+            <summary>
+            Cleanup this native info by unlocking the global handle
+            </summary>
+        </member>
+        <member name="T:Dapplo.Windows.Clipboard.Internals.ClipboardSemaphore">
+            <summary>
+            This can be used to get a lock to the clipboard, and free it again.
+            </summary>
+        </member>
+        <member name="M:Dapplo.Windows.Clipboard.Internals.ClipboardSemaphore.Lock(System.IntPtr,System.Int32,System.Nullable{System.TimeSpan},System.Nullable{System.TimeSpan})">
+            <summary>
+            Get a lock to the clipboard
+            </summary>
+            <param name="hWnd">IntPtr with a hWnd for the potential new owner</param>
+            <param name="retries">int with number of retries, default is 5</param>
+            <param name="retryInterval">TimeSpan for the time between retries</param>
+            <param name="timeout">optional TimeSpan for the timeout, default is 400ms</param>
+            <returns>IClipboardLock</returns>
+        </member>
+        <member name="M:Dapplo.Windows.Clipboard.Internals.ClipboardSemaphore.LockAsync(System.IntPtr,System.Int32,System.Nullable{System.TimeSpan},System.Nullable{System.TimeSpan},System.Threading.CancellationToken)">
+            <summary>
+            Lock the clipboard, return a disposable which can free this again.
+            </summary>
+            <param name="hWnd">IntPtr with the hWnd of the potential new owner</param>
+            <param name="retries">int with the number of retries</param>
+            <param name="retryInterval">optional TimeSpan</param>
+            <param name="timeout">optional TimeSpan for the timeout, default is 400ms</param>
+            <param name="cancellationToken">CancellationToken</param>
+            <returns>Task with IClipboardLock</returns>
+        </member>
+        <member name="M:Dapplo.Windows.Clipboard.Internals.ClipboardSemaphore.OpenClipboard(System.IntPtr)">
+            <summary>
+                <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms649048(v=vs.85).aspx"></a>
+                Opens the clipboard for examination and prevents other applications from modifying the clipboard content.
+            </summary>
+            <param name="hWndNewOwner">IntPtr with the hWnd of the new owner. If this parameter is NULL, the open clipboard is associated with the current task.</param>
+            <returns>true if the clipboard is opened</returns>
+        </member>
+        <member name="M:Dapplo.Windows.Clipboard.Internals.ClipboardSemaphore.CloseClipboard">
+            <summary>
+                <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms649048(v=vs.85).aspx"></a>
+                Opens the clipboard for examination and prevents other applications from modifying the clipboard content.
+            </summary>
+            <returns>true if the clipboard is closed</returns>
+        </member>
+        <member name="M:Dapplo.Windows.Clipboard.Internals.ClipboardSemaphore.DisposeInternal">
+            <summary>
+                Dispose the current async lock, and it's underlying SemaphoreSlim
+            </summary>
+        </member>
+        <member name="M:Dapplo.Windows.Clipboard.Internals.ClipboardSemaphore.Finalize">
+            <summary>
+                Finalizer, as it would be bad to leave a SemaphoreSlim hanging around
+            </summary>
+        </member>
+        <member name="M:Dapplo.Windows.Clipboard.Internals.ClipboardSemaphore.Dispose">
+            <summary>
+                Implementation of the IDisposable
+            </summary>
+        </member>
+        <member name="M:Dapplo.Windows.Clipboard.Internals.NativeMethods.EnumClipboardFormats(System.UInt32)">
+            <summary>
+                See
+                <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms649038(v=vs.85).aspx">EnumClipboardFormats function</a>
+                Enumerates the data formats currently available on the clipboard.
+                Clipboard data formats are stored in an ordered list. To perform an enumeration of clipboard data formats, you make
+                a series of calls to the EnumClipboardFormats function. For each call, the format parameter specifies an available
+                clipboard format, and the function returns the next available clipboard format.
+            </summary>
+            <param name="format">
+                To start an enumeration of clipboard formats, set format to zero. When format is zero, the
+                function retrieves the first available clipboard format. For subsequent calls during an enumeration, set format to
+                the result of the previous EnumClipboardFormats call.
+            </param>
+            <returns>If the function succeeds, the return value is the clipboard format that follows the specified format, namely the next available clipboard format.
+                If the function fails, the return value is zero. To get extended error information, call GetLastError. If the clipboard is not open, the function fails.
+                If there are no more clipboard formats to enumerate, the return value is zero. In this case, the GetLastError function returns the value ERROR_SUCCESS.
+                This lets you distinguish between function failure and the end of enumeration.
+            </returns>
+        </member>
+        <member name="M:Dapplo.Windows.Clipboard.Internals.NativeMethods.IsClipboardFormatAvailable(System.UInt32)">
+            <summary>
+            Determines whether the clipboard contains data in the specified format.
+            </summary>
+            <param name="format">uint for the format</param>
+            <returns>bool</returns>
+        </member>
+        <member name="M:Dapplo.Windows.Clipboard.Internals.NativeMethods.EmptyClipboard">
+            <summary>
+            Empties the clipboard and frees handles to data in the clipboard. The function then assigns ownership of the clipboard to the window that currently has the clipboard open.
+            </summary>
+            <returns>bool</returns>
+        </member>
+        <member name="M:Dapplo.Windows.Clipboard.Internals.NativeMethods.GetClipboardData(System.UInt32)">
+            <summary>
+            Retrieves data from the clipboard in a specified format. The clipboard must have been opened previously.
+            </summary>
+            <param name="format">uint with the clipboard format.</param>
+            <returns>IntPtr with a handle to the memory</returns>
+        </member>
+        <member name="M:Dapplo.Windows.Clipboard.Internals.NativeMethods.SetClipboardData(System.UInt32,System.IntPtr)">
+            <summary>
+            Places data on the clipboard in a specified clipboard format.
+            The window must be the current clipboard owner, and the application must have called the OpenClipboard function.
+            (When responding to the WM_RENDERFORMAT and WM_RENDERALLFORMATS messages, the clipboard owner must not call OpenClipboard before calling SetClipboardData.)
+            </summary>
+            <param name="format">uint</param>
+            <param name="memory">IntPtr to the memory area</param>
+            <returns></returns>
+        </member>
+        <member name="M:Dapplo.Windows.Clipboard.Internals.NativeMethods.GetClipboardFormatName(System.UInt32,System.Char*,System.Int32)">
+            <summary>
+                See
+                <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms649040(v=vs.85).aspx">GetClipboardFormatName function</a>
+                Retrieves from the clipboard the name of the specified registered format.
+                The function copies the name to the specified buffer.
+            </summary>
+            <param name="format">uint with the id of the format</param>
+            <param name="lpszFormatName">Name of the format</param>
+            <param name="cchMaxCount">Maximum size of the output</param>
+            <returns></returns>
+        </member>
+        <member name="M:Dapplo.Windows.Clipboard.Internals.NativeMethods.RegisterClipboardFormat(System.String)">
+            <summary>
+            Registers a new clipboard format. This format can then be used as a valid clipboard format.
+            
+            If a registered format with the specified name already exists, a new format is not registered and the return value identifies the existing format. This enables more than one application to copy and paste data using the same registered clipboard format. Note that the format name comparison is case-insensitive.
+            Registered clipboard formats are identified by values in the range 0xC000 through 0xFFFF.
+            When registered clipboard formats are placed on or retrieved from the clipboard, they must be in the form of an HGLOBAL value.
+            </summary>
+            <param name="lpszFormat">The name of the new format.</param>
+            <returns>
+            If the function succeeds, the return value identifies the registered clipboard format.
+            If the function fails, the return value is zero. To get extended error information, call GetLastError.
+            </returns>
+        </member>
+        <member name="M:Dapplo.Windows.Clipboard.Internals.NativeMethods.GetClipboardOwner">
+            <summary>
+            Returns the hWnd of the owner of the clipboard content
+            </summary>
+            <returns>IntPtr with a hWnd</returns>
+        </member>
+        <member name="M:Dapplo.Windows.Clipboard.Internals.NativeMethods.GetClipboardSequenceNumber">
+            <summary>
+            Retrieves the sequence number of the clipboard
+            </summary>
+            <returns>sequence number or 0 if this cannot be retrieved</returns>
+        </member>
+        <member name="M:Dapplo.Windows.Clipboard.Internals.NativeMethods.DragQueryFile(System.IntPtr,System.UInt32,System.Char*,System.Int32)">
+            <summary>
+            Retrieves the names of dropped files that result from a successful drag-and-drop operation.
+            </summary>
+            <param name="hDrop">Identifier of the structure that contains the file names of the dropped files.</param>
+            <param name="iFile">Index of the file to query. If the value of this parameter is 0xFFFFFFFF, DragQueryFile returns a count of the files dropped. If the value of this parameter is between zero and the total number of files dropped, DragQueryFile copies the file name with the corresponding value to the buffer pointed to by the lpszFile parameter.</param>
+            <param name="lpszFile">The address of a buffer that receives the file name of a dropped file when the function returns. This file name is a null-terminated string. If this parameter is NULL, DragQueryFile returns the required size, in characters, of this buffer.</param>
+            <param name="cch">The size, in characters, of the lpszFile buffer.</param>
+            <returns>
+            A nonzero value indicates a successful call.
+            When the function copies a file name to the buffer, the return value is a count of the characters copied, not including the terminating null character.
+            If the index value is 0xFFFFFFFF, the return value is a count of the dropped files. Note that the index variable itself returns unchanged, and therefore remains 0xFFFFFFFF.
+            If the index value is between zero and the total number of dropped files, and the lpszFile buffer address is NULL, the return value is the required size, in characters, of the buffer, not including the terminating null character.
+            </returns>
+        </member>
+        <member name="M:Dapplo.Windows.Clipboard.Internals.NativeMethods.AddClipboardFormatListener(System.IntPtr)">
+            <summary>
+                Add a window as a clipboard format listener
+                See
+                <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms649033(v=vs.85).aspx">
+                    AddClipboardFormatListener
+                    function
+                </a>
+            </summary>
+            <param name="hWnd">IntPtr for the window to handle the messages</param>
+            <returns>true if it worked, false if not; call GetLastError to see what was the problem</returns>
+        </member>
+        <member name="M:Dapplo.Windows.Clipboard.Internals.NativeMethods.RemoveClipboardFormatListener(System.IntPtr)">
+            <summary>
+                Remove a window as a clipboard format listener
+                See
+                <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms649050(v=vs.85).aspx">
+                    RemoveClipboardFormatListener
+                    function
+                </a>
+            </summary>
+            <param name="hWnd">IntPtr for the window to handle the messages</param>
+            <returns>true if it worked, false if not; call GetLastError to see what was the problem</returns>
+        </member>
+        <member name="T:Dapplo.Windows.Clipboard.Internals.UnmanagedMemoryStreamWrapper">
+            <summary>
+            This wraps an UnmanagedMemoryStream, to also take care or disposing some disposable
+            </summary>
+        </member>
+        <member name="T:Dapplo.Windows.Clipboard.StandardClipboardFormats">
+            <summary>
+                Standard Clipboard Formats
+                The clipboard formats defined by the system are called standard clipboard formats.
+                These clipboard formats are described in the following table.
+            </summary>
+        </member>
+        <member name="F:Dapplo.Windows.Clipboard.StandardClipboardFormats.Text">
+            <summary>
+                Text format. Each line ends with a carriage return/linefeed (CR-LF) combination.A null character signals the end of
+                the data.Use this format for ANSI text.
+            </summary>
+        </member>
+        <member name="F:Dapplo.Windows.Clipboard.StandardClipboardFormats.Bitmap">
+            <summary>
+                A handle to a bitmap (HBITMAP).
+            </summary>
+        </member>
+        <member name="F:Dapplo.Windows.Clipboard.StandardClipboardFormats.MetafilePicture">
+            <summary>
+                Handle to a metafile picture format as defined by the METAFILEPICT structure.When passing a CF_METAFILEPICT handle
+                by means of DDE, the application responsible for deleting hMem should also free the metafile referred to by the
+                CF_METAFILEPICT handle.
+            </summary>
+        </member>
+        <member name="F:Dapplo.Windows.Clipboard.StandardClipboardFormats.SymbolicLink">
+            <summary>
+                Microsoft Symbolic Link (SYLK) format.
+            </summary>
+        </member>
+        <member name="F:Dapplo.Windows.Clipboard.StandardClipboardFormats.DataInterchangeFormat">
+            <summary>
+                Software Arts' Data Interchange Format.
+            </summary>
+        </member>
+        <member name="F:Dapplo.Windows.Clipboard.StandardClipboardFormats.Tiff">
+            <summary>
+                Tagged-image file format.
+            </summary>
+        </member>
+        <member name="F:Dapplo.Windows.Clipboard.StandardClipboardFormats.OemText">
+            <summary>
+                Text format containing characters in the OEM character set. Each line ends with a carriage return/linefeed (CR-LF)
+                combination. A null character signals the end of the data.
+            </summary>
+        </member>
+        <member name="F:Dapplo.Windows.Clipboard.StandardClipboardFormats.DeviceIndependentBitmap">
+            <summary>
+                A memory object containing a BITMAPINFO structure followed by the bitmap bits.
+            </summary>
+        </member>
+        <member name="F:Dapplo.Windows.Clipboard.StandardClipboardFormats.Palette">
+            <summary>
+                Handle to a color palette. Whenever an application places data in the clipboard that depends on or assumes a color
+                palette, it should place the palette on the clipboard as well.
+                If the clipboard contains data in the CF_PALETTE (logical color palette) format, the application should use the
+                SelectPalette and RealizePalette functions to realize (compare) any other data in the clipboard against that
+                logical palette.
+                When displaying clipboard data, the clipboard always uses as its current palette any object on the clipboard that
+                is in the CF_PALETTE format.
+            </summary>
+        </member>
+        <member name="F:Dapplo.Windows.Clipboard.StandardClipboardFormats.PenData">
+            <summary>
+                Data for the pen extensions to the Microsoft Windows for Pen Computing.
+            </summary>
+        </member>
+        <member name="F:Dapplo.Windows.Clipboard.StandardClipboardFormats.Riff">
+            <summary>
+                Represents audio data more complex than can be represented in a CF_WAVE standard wave format.
+            </summary>
+        </member>
+        <member name="F:Dapplo.Windows.Clipboard.StandardClipboardFormats.Wave">
+            <summary>
+                Represents audio data in one of the standard wave formats, such as 11 kHz or 22 kHz PCM.
+            </summary>
+        </member>
+        <member name="F:Dapplo.Windows.Clipboard.StandardClipboardFormats.UnicodeText">
+            <summary>
+                Unicode text format.Each line ends with a carriage return/linefeed (CR-LF) combination. A null character signals
+                the end of the data.
+            </summary>
+        </member>
+        <member name="F:Dapplo.Windows.Clipboard.StandardClipboardFormats.EnhancedMetafile">
+            <summary>
+                A handle to an enhanced metafile (HENHMETAFILE).
+            </summary>
+        </member>
+        <member name="F:Dapplo.Windows.Clipboard.StandardClipboardFormats.Drop">
+            <summary>
+                A handle to type HDROP that identifies a list of files. An application can retrieve information about the files by
+                passing the handle to the DragQueryFile function.
+            </summary>
+        </member>
+        <member name="F:Dapplo.Windows.Clipboard.StandardClipboardFormats.Locale">
+            <summary>
+                The data is a handle to the locale identifier associated with text in the clipboard. When you close the clipboard,
+                if it contains CF_TEXT data but no CF_LOCALE data, the system automatically sets the CF_LOCALE format to the
+                current input language. You can use the CF_LOCALE format to associate a different locale with the clipboard text.
+                An application that pastes text from the clipboard can retrieve this format to determine which character set was
+                used to generate the text.
+                Note that the clipboard does not support plain text in multiple character sets.To achieve this, use a formatted
+                text data type such as RTF instead.
+                The system uses the code page associated with CF_LOCALE to implicitly convert from CF_TEXT to CF_UNICODETEXT.
+                Therefore, the correct code page table is used for the conversion.
+            </summary>
+        </member>
+        <member name="F:Dapplo.Windows.Clipboard.StandardClipboardFormats.DeviceIndependentBitmapV5">
+            <summary>
+                A memory object containing a BITMAPV5HEADER structure followed by the bitmap color space information and the bitmap
+                bits.
+            </summary>
+        </member>
+        <member name="F:Dapplo.Windows.Clipboard.StandardClipboardFormats.OwnerDisplay">
+            <summary>
+                Owner-display format. The clipboard owner must display and update the clipboard viewer window, and receive the
+                WM_ASKCBFORMATNAME, WM_HSCROLLCLIPBOARD, WM_PAINTCLIPBOARD, WM_SIZECLIPBOARD, and WM_VSCROLLCLIPBOARD messages. The
+                hMem parameter must be NULL.
+            </summary>
+        </member>
+        <member name="F:Dapplo.Windows.Clipboard.StandardClipboardFormats.DisplayText">
+            <summary>
+                Text display format associated with a private format.
+                The hMem parameter must be a handle to data that can be displayed in text format in lieu of the privately formatted
+                data.
+            </summary>
+        </member>
+        <member name="F:Dapplo.Windows.Clipboard.StandardClipboardFormats.DisplayBitmap">
+            <summary>
+                Bitmap display format associated with a private format.
+                The hMem parameter must be a handle to data that can be displayed in bitmap format in lieu of the privately
+                formatted data.
+            </summary>
+        </member>
+        <member name="F:Dapplo.Windows.Clipboard.StandardClipboardFormats.DisplayMetafilePicture">
+            <summary>
+                Metafile-picture display format associated with a private format.
+                The hMem parameter must be a handle to data that can be displayed in metafile-picture format in lieu of the
+                privately formatted data.
+            </summary>
+        </member>
+        <member name="F:Dapplo.Windows.Clipboard.StandardClipboardFormats.DisplayEnhancedMetafile">
+            <summary>
+                Enhanced metafile display format associated with a private format.
+                The hMem parameter must be a handle to data that can be displayed in enhanced metafile format in lieu of the
+                privately formatted data.
+            </summary>
+        </member>
+        <member name="F:Dapplo.Windows.Clipboard.StandardClipboardFormats.StartOfPrivateRange">
+            <summary>
+                Start of a range of integer values for private clipboard formats.The range ends with CF_PRIVATELAST. Handles
+                associated with private clipboard formats are not freed automatically; the clipboard owner must free such handles,
+                typically in response to the WM_DESTROYCLIPBOARD message.
+            </summary>
+        </member>
+        <member name="F:Dapplo.Windows.Clipboard.StandardClipboardFormats.EndOfPrivateRange">
+            <summary>
+                See CF_PRIVATEFIRST.
+            </summary>
+        </member>
+        <member name="F:Dapplo.Windows.Clipboard.StandardClipboardFormats.StartOfApplicationDefinedGdiObjectRange">
+            <summary>
+                Start of a range of integer values for application-defined GDI object clipboard formats.The end of the range is
+                CF_GDIOBJLAST.
+                Handles associated with clipboard formats in this range are not automatically deleted using the GlobalFree function
+                when the clipboard is emptied.
+                Also, when using values in this range, the hMem parameter is not a handle to a GDI object, but is a handle
+                allocated by the GlobalAlloc function with the GMEM_MOVEABLE flag.
+            </summary>
+        </member>
+        <member name="F:Dapplo.Windows.Clipboard.StandardClipboardFormats.EndOfApplicationDefinedGdiObjectRange">
+            <summary>
+                See CF_GDIOBJFIRST.
+            </summary>
+        </member>
+    </members>
+</doc>
